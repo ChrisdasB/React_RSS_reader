@@ -1,0 +1,70 @@
+
+
+body {
+  background-color: rgb(207, 247, 253);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #bbcff8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.devider {
+  height: 0.3vh;
+  background-color: rgb(131, 174, 231);
+}
+
+.large-devider {
+  height: 1vh;
+  background-color: rgb(34, 63, 102);
+}
+
+.feed-header {
+  text-align: left;
+}
+
+.feed-content {
+  text-align: left;
+}
+
+.feed-footer {
+  text-align: left;
+}
+
+.btn {
+  background-color: rgb(25, 222, 240);
+  border-style: solid;
+  box-shadow: 2px 2px;
+}
+
+.FeedLinkInput {
+  min-width: 25vw;;
+}
